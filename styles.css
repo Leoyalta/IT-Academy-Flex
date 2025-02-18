@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 4px 8px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  padding: 16px;
+
+  max-width: 1200px;
+  margin: 12px auto;
+}
+.header-box {
+}
+.nav-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  margin-bottom: 16px;
+
+  background-color: rgb(65, 60, 60);
+  padding: 16px;
+}
+.nav-element {
+  flex-grow: 1;
+  background-color: rgb(251, 96, 57);
+}
+.nav {
+  flex-grow: 2;
+}
+.banner {
+  background-color: orange;
+  padding: 12px;
+}
+.banner-text {
+  padding: 4px 8px;
+
+  background-color: rgb(255, 221, 51);
+  font-size: x-large;
+}
+.main-box {
+  display: flex;
+  gap: 16px;
+}
+.articlles-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  background-color: rgba(59, 42, 112, 0.933);
+  padding: 16px;
+  flex-grow: 3;
+}
+.article-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.article-item {
+  background-color: rgb(101, 78, 202);
+  flex: 1 1 calc(50% - 6px);
+}
+.navigation {
+  background-color: rgb(88, 196, 235);
+}
+.ad-list {
+  flex-grow: 0.8;
+  padding: 16px;
+  background-color: rgb(200, 99, 99);
+
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+.ad-item {
+  background-color: rgb(195, 195, 24);
+  width: 100%;
+}
+.footer-box {
+}
+.footer-info {
+  background-color: rgb(245, 245, 165);
+}
