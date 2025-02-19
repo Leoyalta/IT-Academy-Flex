@@ -37,8 +37,7 @@ ul {
   max-width: 1200px;
   margin: 12px auto;
 }
-.header-box {
-}
+
 .nav-box {
   display: flex;
   gap: 16px;
@@ -50,6 +49,13 @@ ul {
 .nav-element {
   flex-grow: 1;
   background-color: rgb(251, 96, 57);
+}
+.nav-element:first-child {
+  cursor: pointer;
+}
+.nav-element:first-child:hover {
+  background-color: hotpink;
+  transform: scale(1.05);
 }
 .nav {
   flex-grow: 2;
@@ -103,8 +109,7 @@ ul {
   background-color: rgb(195, 195, 24);
   width: 100%;
 }
-.footer-box {
-}
+
 .footer-info {
   background-color: rgb(245, 245, 165);
 }
