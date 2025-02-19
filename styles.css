@@ -67,7 +67,7 @@ ul {
   display: flex;
   gap: 16px;
 }
-.articlles-wrapper {
+.articles-wrapper {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -78,12 +78,12 @@ ul {
 }
 .article-list {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 .article-item {
   background-color: rgb(101, 78, 202);
-  flex: 1 1 calc(50% - 6px);
+  flex: 1 1 calc(50% - 8px);
 }
 .navigation {
   background-color: rgb(88, 196, 235);
@@ -132,22 +132,52 @@ ul {
   .main-box {
     flex-direction: column;
   }
-  .articlles-wrapper {
+  .articles-wrapper {
     padding: 14px;
     gap: 14px;
+  }
+  .article-list {
+    gap: 14px;
+    flex: 1 1 calc(50% - 7px);
   }
   .ad-list {
     padding: 14px;
   }
 }
 @media (max-width: 575.98px) {
+  .container {
+    padding: 14px;
+  }
   p {
     font-size: 14px;
   }
   .nav-box {
+    padding: 14px;
+    flex-direction: column;
+    gap: 14px;
   }
   .nav {
+    flex-grow: 1;
+  }
+  .banner {
+    padding: 14px;
+  }
+  .banner-title {
+    font-size: 24px;
   }
   .main-box {
+    flex-direction: column;
+  }
+  .articles-wrapper {
+    padding: 14px;
+    gap: 14px;
+  }
+  .article-list {
+    gap: 14px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .ad-list {
+    padding: 14px;
   }
 }
